@@ -27,5 +27,8 @@ class ToysController < ApplicationController
   def toy_params
     params.permit(:name, :image, :likes)
   end
+  # def toy_params
+  #   params.permit(:name, :image, :likes)
+  # end
 
 end
